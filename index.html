@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- GoogleFont Open Sans -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+
+    <!-- FontAwesome StyleSheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+    <!-- My CSS StyleSheet -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <title>ICE-ME</title>
+  </head>
+  <body>
+
+	<!-- Start NavBar -->
+	<nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark bg-custom-transparent">
+	  <a class="navbar-brand" href="#">ICEME</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+	    <ul class="navbar-nav">
+	      <li class="nav-item">
+	        <a class="nav-link" href="#" data-toggle="modal" data-target="#orderForm">Une glace, maintenant!</a>
+	      </li>
+	      <li class="nav-item dropdown">
+	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	          Suivez-Nous
+	        </a>
+	        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+	          <a class="dropdown-item" href="#"><i class="fab fa-facebook-f"></i></a>
+	          <a class="dropdown-item" href="#"><i class="fab fa-twitter"></i></a>
+	          <a class="dropdown-item" href="#"><i class="fab fa-instagram"></i></a>
+	        </div>
+	      </li>
+	    </ul>
+	  </div>
+	</nav>
+	<!-- End NavBar-->
+
+  	<div class="container-fluid wrapper">
+	    <h1>DEGUSTEZ UNE GLACE</h1>
+	    <h2>MAINTENANT, TOUT DE SUITE</h2>
+	    <p>
+	    	<!-- Modal OrderForm Button -->
+	    	<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#orderForm">Je veux une glace</button>
+	    </p>
+
+	    <!-- Modal OrderForm -->
+	    <div class="modal fade" id="orderForm" tabindex="-1" role="dialog" aria-labelledby="formTitle" aria-hidden="true">
+	      <div class="modal-dialog" role="document">
+	        <div class="modal-content">
+	          <div class="modal-header">
+	            <h5 class="modal-title" id="formTitle">Commandez</h5>
+	            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	              <span aria-hidden="true">&times;</span>
+	            </button>
+	          </div>
+	          <div class="modal-body">
+
+	          	<!-- Wufoo Form -->
+	          	<div id="wufoo-zkq59zb0t1zgic">
+	          	Fill out my <a href="https://mkarche.wufoo.com/forms/zkq59zb0t1zgic">online form</a>.
+	          	</div>
+	          	<div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">Online contact and registration forms from <a href="http://www.wufoo.com">Wufoo</a>.</div>
+	          	<script type="text/javascript">var zkq59zb0t1zgic;(function(d, t) {
+	          	var s = d.createElement(t), options = {
+	          	'userName':'mkarche',
+	          	'formHash':'zkq59zb0t1zgic',
+	          	'autoResize':true,
+	          	'height':'467',
+	          	'async':true,
+	          	'host':'wufoo.com',
+	          	'header':'show',
+	          	'ssl':true};
+	          	s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+	          	s.onload = s.onreadystatechange = function() {
+	          	var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+	          	try { zkq59zb0t1zgic = new WufooForm();zkq59zb0t1zgic.initialize(options);zkq59zb0t1zgic.display(); } catch (e) {}};
+	          	var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+	          	})(document, 'script');</script>
+	          </div>
+	          <!-- <div class="modal-footer">
+	            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+	            <button type="button" class="btn btn-primary">Save changes</button>
+	          </div> -->
+	        </div>
+	      </div>
+	    </div>
+		<!--End Modal -->
+    </div>
+
+    <div class="verticalspacer d-flex flex-row bd-highlight justify-content-center"></div>
+    <div class="container-fluid features">
+    	<div class="row">
+			<div class="col-md-3 col-sm-6 col-12 text-center">
+	    		<img src="images/Illustration-drawing-style-of-food-collection/17799_icecream.jpg" alt="ice cream" width="100">
+	    		<p>Choisissez jusque <strong>1000</strong> parfums dans notre catalogue</p>
+		    </div>
+	    	<div class="col-md-3 col-sm-6 col-12 text-center">
+	    		<img src="images/Illustration-drawing-style-of-food-collection/17799_donut.jpg" alt="donut" width="100">
+	    		<p>Faites également le choix de <strong>Multiples Donuts pour accompagner vos glaces</strong></p>
+			</div>
+			<div class="col-md-3 col-sm-6 col-12 text-center">
+				<img src="images/Delivery-icons-set/OBFGFZ0_hotline.jpg" alt="hotline" width="100">
+				<p>Contactez notre hotline pour commander</p>
+			</div>
+			<div class="col-md-3 col-sm-6 col-12 text-center">
+	    		<img src="images/Delivery-icons-set/OBFGFZ0_truck.jpg" alt="hotline" width="100">
+				<p>Nous vous livrons à domicile</p>
+	    	</div>
+	    </div>
+    </div>
+    <div class="verticalspacer"></div>
+
+    <div class="container-fluid" id="footer">
+    	<div class="row">
+	    	<div class="col-sm col-12">
+		    	<ul class="list-inline">
+		    		<li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+		    		<li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+		    		<li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+		    	</ul>
+	    	</div>
+	    	<div class="col-sm-auto">
+	    		<span>Ce site est <i class="far fa-copyright"></i>MK</span>
+	    	</div>
+    	</div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>

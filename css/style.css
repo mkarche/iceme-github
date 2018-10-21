@@ -1,0 +1,55 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	background: url("../images/grid.jpg");
+}
+
+.verticalspacer{
+	height: 3em;
+}
+.wrapper h1{
+	font-size: 5rem;
+}
+
+.wrapper h2{
+	background: rgba(0,0,0,0.4);
+	font-size: 1rem;
+	display: inline-block;
+}
+
+.wrapper{
+	background-image: url("../images/background/background.jpg");
+	background-repeat: no-repeat;
+	background-position: fixed;
+	background-size: cover;
+	color: white;
+	height: 650px;
+	text-align: center;
+	padding-top: 150px;
+}
+
+.bg-custom-transparent{
+	background-color: rgba(52,58,64,0.8)!important;
+	border-bottom: solid thin white;
+}
+
+#formTitle{
+	color: #aaaaaa;
+}
+
+#footer{
+	background: rgba(0,0,0,0.8);
+	color: #bbbbbb;
+}
+
+#footer a{
+	color: white;
+}
+
+#footer a:hover{
+	color: #aaaaaa;
+}
+
+.features img{
+	margin-bottom: 0.5em;
+}
+
